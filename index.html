@@ -1,0 +1,59 @@
+ss<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/173f0ad0b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/index.css" />
+
+    <title>about ToDo</title>
+</head>
+<body>
+    <div>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This Is The survey Form Assignment</p>
+  </header><hr>
+  <main>
+    <form id="survey-form">
+    <selection id="first"></select>
+      <label for="name" id="name-label">Please enter your name: </label><br>
+      <input id="name" type="text" required placeholder='Full Name'><br>
+      <label for="email" id="email-label">Please enter your email: </label><br>
+      <input id="email" type="email" required placeholder='Email'><br>
+      <label for="number" id="number-label">Please enter your age: </label><br>
+      <input id="number" type="number" required min='5' max='100' placeholder='000'>
+    </selection>
+      <hr><br>
+    <selection id="part2">
+      <label>What is your favorite feature of freeCodeCamp?</label><br>
+      <select id='dropdown'>
+        <option>NON</option>
+        <option>Nothing</option>
+      </select><br>
+    </selection>  
+    <selection id="radionon">
+        <label for='Q?'>Would you recommend freeCodeCamp to a friend?</label><br>
+        <input type='radio' name='radio-options'id='no'value='1'><label for='no'>NO</label><br>
+        <input type='radio' name='radio-options'id='no-way' value='2'><label for='no-way'>NO WAY!</label><br>
+        <input type='radio' name='radio-options'id='ever' value='3'><label for='ever'>EVER NEVER!</label>
+    </selection><br>
+    <section id="checkboxs">
+        <label for='ever'>What would you like to see improved?</label><br>
+        <input type='checkbox' value='0' id="nothing"><label for='nothing'>Nothing</label>
+        <input type='checkbox' value='0' id="close"><label for='close'>Close it</label>
+        <input type='checkbox' value='0' id="closeit"><label for='closeit'>CLOSE ITx2</label>
+    </section>
+    <br>
+    <hr>
+<textarea>
+Any comments or suggestions?
+</textarea><br>
+      <input type="submit" id='submit'>
+      </form>
+
+  </main>
+</div>
+</body>
+</html>
